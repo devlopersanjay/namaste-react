@@ -1,0 +1,25 @@
+
+.flexContainer{
+    display: flex;
+}
+
+.childStyle{
+    border: 1px solid brown;
+    padding: 25px;
+    width: calc(100%/4);
+    text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+    .flexContainer{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .childStyle{
+        border: 1px solid brown;
+        padding: 25px;
+        width: auto;
+        text-align: center;
+    }
+}
