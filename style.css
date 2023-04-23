@@ -38,14 +38,15 @@ header{
 .food-list-wrapper{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .food-item{
     width: 21%;
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 18px;
     border: 1px solid #c0b1b1b9;
+    margin-right: 10px;
 }
 
 .food-item img {
@@ -84,12 +85,22 @@ header{
 
 .row-title{
     margin: 25px 0px;
-    text-align: center;
 }
 
 .row-title h2{
-    font-size: 30px;
     color: brown;
+    font-size: 30px;
+    display: inline;
+}
+
+input#searchKey {
+    padding: 5px 10px;
+    border: 1px solid rgba(156, 148, 148, 0.904);
+    margin-left: 5px;
+}
+
+.row-title label{
+    float: right;
 }
 
 .food-item:hover{
